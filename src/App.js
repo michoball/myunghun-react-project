@@ -1,27 +1,19 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import spaceComputer from "./assets/space-computer.jpg";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import { ConfigProvider } from "antd";
 
 function App() {
   return (
-    <div className="App">
-      <div className="card-container">
-        <section className="card-content">
-          <header className="card-header">
-            <h1>Hi, There ~ !</h1>
-          </header>
-          <article>
-            <h3>프론트엔드 개발자 강명훈입니다.</h3>
-            <p>
-              als;eijf;alsiejf;alsiejf;lasiejf;asliejf;laseijf;alseijf;lij
-              ;lasjef;iasje;lfijaselfijlij
-            </p>
-          </article>
-        </section>
-        <section className="img-contianer">
-          <img src={spaceComputer} alt="spaceman-computer" />
-        </section>
+    <ConfigProvider theme={{ token: { colorPrimary: "#626C80" } }}>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
-    </div>
+    </ConfigProvider>
   );
 }
 
