@@ -7,7 +7,18 @@
   height: 100vh;
   color: white;
 }
+.card-container {
+  border: 1px solid #fff;
+  width: 70vw;
+  height: 60vh;
+  display: flex;
+}
 
+.card-content {
+  width: calc(70vw - 40%);
+  border: 3px solid red;
+  padding: 10px 20px;
+}
 .card-header {
   text-align: center;
   font-size: 25px;
