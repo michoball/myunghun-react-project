@@ -1,0 +1,53 @@
+.career-container {
+  margin-top: 20px;
+  background-color: whitesmoke;
+  border: 1px solid #626c80;
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+  color: white;
+  transition: height 0.4s linear;
+}
+.career-container .career-list {
+  position: relative;
+}
+
+.career-container.no {
+  height: 50px;
+  transition: height 0.4s linear;
+}
+.career-container.no .career-list .content {
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.career-container .career-list .content {
+  opacity: 1;
+  transition: all 0.3s 0.2s linear;
+}
+
+.career-list .career-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  background-color: transparent;
+  border: none;
+
+  color: #35424a;
+  font-weight: 600;
+  font-size: large;
+
+  cursor: pointer;
+  transition: all 0.3s 0.2s linear;
+}
+
+.career-list .avatar {
+  width: 65px;
+  height: 65px;
+}
+
+.career-list .foot {
+  margin-left: 1.5rem;
+  color: gray;
+}
