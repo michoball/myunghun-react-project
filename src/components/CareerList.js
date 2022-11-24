@@ -1,5 +1,5 @@
 import "./CareerList.css";
-import spaceComputer from "../assets/space-computer.jpg";
+import profileImg from "../assets/profile.jpg";
 import { Avatar, List } from "antd";
 import { useRef, useState } from "react";
 import { CaretUpOutlined, CaretDownOutlined } from "@ant-design/icons";
@@ -17,7 +17,7 @@ const CareerList = () => {
   const data = [
     {
       title: "Kang Myung Hun",
-      avatar: spaceComputer,
+      avatar: profileImg,
       description: "Front end Web Developer",
       content:
         "We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.",
