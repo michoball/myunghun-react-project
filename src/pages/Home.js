@@ -9,6 +9,7 @@ const Home = () => {
   const contactButtonHandler = () => {
     navigate("/contact");
   };
+
   return (
     <div className="home-container">
       <div className="card-container">
