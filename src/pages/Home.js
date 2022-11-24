@@ -4,7 +4,7 @@ import spaceComputer from "../assets/space-computer.jpg";
 import { useNavigate } from "react-router-dom";
 import CareerList from "../components/CareerList";
 
-const Home = () => {
+const Home = ({ imgChangeHandler }) => {
   const navigate = useNavigate();
   const contactButtonHandler = () => {
     navigate("/contact");
@@ -24,6 +24,9 @@ const Home = () => {
               aseijf;alseijf;lij;lasjef;iasje;lfijaselfijlijasefasefasefasefasaffffffffffffffffffffffffffffffffffff
             </p>
             <Space className="button-container">
+              <Button type="default" size="large" onClick={imgChangeHandler}>
+                Change Img
+              </Button>
               <Button
                 type="primary"
                 size="large"
