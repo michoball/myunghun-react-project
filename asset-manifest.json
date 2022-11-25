@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/myunghun-react-project/static/css/main.9cced2f4.css",
+    "main.js": "/myunghun-react-project/static/js/main.c6b171bf.js",
+    "static/media/profile.jpg": "/myunghun-react-project/static/media/profile.4b1a2d09c24cca270632.jpg",
+    "index.html": "/myunghun-react-project/index.html",
+    "main.9cced2f4.css.map": "/myunghun-react-project/static/css/main.9cced2f4.css.map",
+    "main.c6b171bf.js.map": "/myunghun-react-project/static/js/main.c6b171bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cced2f4.css",
+    "static/js/main.c6b171bf.js"
+  ]
+}
