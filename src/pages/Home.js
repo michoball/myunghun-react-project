@@ -20,12 +20,17 @@ const Home = ({ imgChangeHandler }) => {
           <article>
             <h3>프론트엔드 개발자 강명훈입니다.</h3>
             <p>
-              als;eijf;alsiejf;alsiejf;lasiejf;asliejf;l
-              aseijf;alseijf;lij;lasjef;iasje;lfijaselfijlijasefasefasefasefasaffffffffffffffffffffffffffffffffffff
+              천문학관련 업종에서 일하다 개발의 즐거움에 빠져 개발자에 길에
+              들어섰습니다.
+              <br />
+              React로 개발을 하고 상태관리 툴로 Redux를 주로 사용합니다.
+              <br />
+              코드 개선과 기능 개선에 관심이 많아 개발한 프로젝트 기능과
+              코드개선을 계속 진행하고 있습니다.
             </p>
             <Space className="button-container">
               <Button type="default" size="large" onClick={imgChangeHandler}>
-                Change Img
+                Change Image
               </Button>
               <Button
                 type="primary"
