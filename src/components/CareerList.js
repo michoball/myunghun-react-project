@@ -11,7 +11,7 @@ const CareerList = () => {
   const closeCareerHandeler = () => {
     const card = carRef.current;
     card.classList.toggle("no");
-    setTimeout(() => setShowCar(!showCar), 400);
+    setTimeout(() => setShowCar(!showCar), 500);
   };
 
   const data = [
@@ -19,8 +19,6 @@ const CareerList = () => {
       title: "Kang Myung Hun",
       avatar: profileImg,
       description: "Front end Web Developer",
-      content:
-        "We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.",
     },
   ];
   return (
@@ -37,7 +35,17 @@ const CareerList = () => {
               title={item.title}
               description={item.description}
             />
-            {item.content}
+            <div className="list-content">
+              <h3>Projects</h3>
+              <div className="project">
+                <p>📒My diary App </p>
+                Fullcalendar library와 draft.js를 이용한 개인 일정관리 및 메모
+                앱 <a href="https://my-diary-myunghun.herokuapp.com/">Click</a>
+                <p>📸Video Chat App </p>
+                WebRtc 기반 agora.io 의 rtc , rtm sdk를 사용한 화상채팅 앱{" "}
+                <a href="https://video-chat-app-neon.vercel.app">Click</a>
+              </div>
+            </div>
           </List.Item>
         )}
       >
